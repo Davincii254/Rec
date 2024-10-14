@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "gh-pages": "^6.2.0"
+  },
+  "name": "rec",
+  "version": "1.0.0",
+  "source": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel --open",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Davincii254/Rec.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Davincii254/Rec/issues"
+  },
+  "homepage": "https://github.com/Davincii254/Rec#readme",
+  "description": "",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}
