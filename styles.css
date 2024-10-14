@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    font-size: larger;
+    font-size: medium;
     background-color: #f0f0f0;
     display: flex;
     justify-content: center;
@@ -21,7 +21,7 @@ body {
 
 .receipt-header {
     text-align: center;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
 }
 
 .qr-code {
@@ -41,8 +41,9 @@ body {
 }
 
 .receipt-details {
-    background-color: #eaeaeafc;
+    background-color: #ebecedfc;
     padding: 15px;
+    height: 370px;
     margin-top: 20px;
     border-radius: 10px;
 }
