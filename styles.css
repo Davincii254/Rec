@@ -58,3 +58,37 @@ body {
 .receipt-footer span {
     font-weight: bold;
 }
+
+.button-container {
+    /* Ensures buttons stack vertically and fill the parent width */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  .btn {
+    /* Basic Styling */
+    width: 100%; /* Makes them match the parent/screen width */
+    padding: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    
+    /* The requested Black Border */
+    border: 1px solid black;
+    border-radius: 4px; /* Optional: gives a slight rounded look */
+    transition: opacity 0.2s ease;
+  }
+
+  .btn-red {
+    background-color: #ff0000;
+    color: white;
+  }
+
+  .btn-white {
+    background-color: #ffffff;
+    color: black;
+  }
